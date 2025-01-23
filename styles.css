@@ -1,3 +1,14 @@
+.colors {
+    --color1: #F2EFE7;
+    --color2: #9acbd0;
+    --color3: #48A6A7;
+    --color4: #2973B2;
+}
+
+* {
+    background-color: #f2efe7;
+}
+
 body {
     margin: 0;
     padding: 0;
