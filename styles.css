@@ -1,31 +1,51 @@
-.colors {
+body {
     --color1: #F2EFE7;
     --color2: #9acbd0;
     --color3: #48A6A7;
     --color4: #2973B2;
-}
 
-* {
-    background-color: #f2efe7;
-}
-
-body {
     margin: 0;
     padding: 0;
-    /* background-color: rgb(0, 0, 0); */
-}
-/* nav {
-    background-color: rgb(184, 167, 167);
+    /* background-color: #f2efe7; */
 }
 
-.hero-section {
-    background-color: aquamarine;
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.technologies {
-    background-color: rgb(203, 156, 212);
+.contact div {
+    margin-left: 5rem;
+    gap: 2rem;
 }
 
-.featured-projects {
-    background-color: rgb(138, 133, 133);
-} */
+#carouselExampleIndicators {
+    background-color: rgba(20, 32, 58, 0.678);
+}
+
+
+.custom-nav .nav-link {
+    color: rgba(20, 32, 58, 0.678);
+    border-radius: 5px;
+}
+
+.custom-nav .nav-link.active {
+    color: #ffffff; 
+    background-color: rgba(20, 32, 58, 0.678);
+}
+
+.tools-elements {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.tool-element {
+    /* gap: 1rem; */
+    padding: 1rem;
+    background-color: rgba(20, 32, 58, 0.678);
+    display: inline;
+    border-radius: 2rem;
+    color: #ffffff; 
+}
