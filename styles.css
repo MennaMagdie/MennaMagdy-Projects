@@ -73,3 +73,7 @@ body {
 .card .btn {
     margin-top: auto; /* Pushes the button to the bottom */
 }
+
+.hero {
+    margin-top: 5rem;
+}
