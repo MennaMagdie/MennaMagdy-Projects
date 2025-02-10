@@ -53,3 +53,23 @@ body {
 .tool-element:hover {
     background-color: rgba(20, 32, 58, 0.884);
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-text {
+    flex-grow: 1; /* This makes all card texts take up equal space */
+}
+
+.card .btn {
+    margin-top: auto; /* Pushes the button to the bottom */
+}
